@@ -38,4 +38,4 @@ Creating controlled phishing attack surfaces using best practices.
 ## 🏆 Applause to the Winners:
 Kudos to the Winners — Rupa Karedla & B. Sree Navya — your OSINT creativity, crafted narratives, and behavioral attacks were exceptional! Your submissions reflected maturity, ethical creativity, and strategic execution.
 
-
+#### Note: To Deploy this project, make sure you have installed ngrok or atleat have your ngrok API, and mailhog installed. Thank You. 
