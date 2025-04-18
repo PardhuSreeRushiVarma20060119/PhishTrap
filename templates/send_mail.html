@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #121212;
+    color: #e0e0e0;
+    padding: 40px;
+  }
+
+  .mail-container {
+    max-width: 700px;
+    background: #1e1e1e;
+    padding: 30px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+  }
+
+  h2 {
+    color: #bb86fc;
+    text-align: center;
+    margin-bottom: 25px;
+  }
+
+  label {
+    display: block;
+    margin-top: 20px;
+    color: #b0b0b0;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 8px;
+    border: none;
+    border-radius: 5px;
+    background: #2a2a2a;
+    color: #f0f0f0;
+    font-size: 15px;
+  }
+
+  textarea {
+    resize: vertical;
+    height: 120px;
+  }
+
+  button {
+    margin-top: 30px;
+    padding: 12px 25px;
+    background-color: #bb86fc;
+    color: #121212;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+
+  button:hover {
+    background-color: #9b6ffb;
+  }
+
+  .note {
+    color: #777;
+    margin-top: 10px;
+    font-size: 14px;
+    text-align: center;
+  }
+</style>
+  <title>Phishing Mail Sender</title>
+</head>
+<body style="font-family: sans-serif;">
+  <h2>📨 Craft & Send Your Phishing Email</h2>
+
+  <form method="POST">
+    <label for="target">🎯 Choose Target:</label>
+    <select name="target" required>
+      <option value="rohit">Rohit Verma</option>
+      <option value="anita">Anita Deshmukh</option>
+      <option value="karthik">Karthik Iyer</option>
+    </select><br><br>
+
+    <label for="sender">✍️ Sender Name:</label><br>
+    <input type="text" name="sender" placeholder="eg. Admin IT" required><br><br>
+
+    <label for="subject">📌 Email Subject:</label><br>
+    <input type="text" name="subject" required><br><br>
+
+    <label for="body">📝 Email Body:</label><br>
+    <textarea name="body" rows="8" cols="50" placeholder="Type the phishing content..." required></textarea><br><br>
+
+    <button type="submit">🚀 Send Mail</button>
+  </form>
+<script>
+  document.querySelector('form').addEventListener('submit', function (e) {
+    const to = document.querySelector('input[name="to"]').value.trim();
+    const subject = document.querySelector('input[name="subject"]').value.trim();
+    const body = document.querySelector('textarea[name="body"]').value.trim();
+
+    if (!to || !subject || !body) {
+      alert("Please fill in all the fields before sending.");
+      e.preventDefault();
+    }
+  });
+</script>
+</body>
+</html>

@@ -1,0 +1,167 @@
+2025/04/11 22:47:13 Using in-memory storage
+2025/04/11 22:47:13 [SMTP] Binding to address: 0.0.0.0:1025
+[HTTP] Binding to address: 0.0.0.0:8025
+2025/04/11 22:47:13 Serving under http://0.0.0.0:8025/
+Creating API v1 with WebPath: 
+Creating API v2 with WebPath: 
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv2] GET /api/v2/jim
+[APIv2] GET /api/v2/websocket
+[APIv2] GET /api/v2/messages
+[APIv2] POST /api/v2/jim
+[APIv2] GET /api/v2/jim
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+2025/04/11 22:58:46 Jim: Allowing connection
+2025/04/11 22:58:46 Jim: Allowing unrestricted throughput
+2025/04/11 22:58:46 [SMTP [::1]:43664] Starting session
+2025/04/11 22:58:46 [SMTP [::1]:43664] [PROTO: INVALID] Started session, switching to ESTABLISH state
+2025/04/11 22:58:46 [SMTP [::1]:43664] Sent 35 bytes: '220 mailhog.example ESMTP MailHog\r\n'
+2025/04/11 22:58:46 [SMTP [::1]:43664] Received 31 bytes: 'ehlo ZenPurple.ZenRageSystems\r\n'
+2025/04/11 22:58:46 [SMTP [::1]:43664] [PROTO: ESTABLISH] Processing line: ehlo ZenPurple.ZenRageSystems
+2025/04/11 22:58:46 [SMTP [::1]:43664] [PROTO: ESTABLISH] In state 1, got command 'EHLO', args 'ZenPurple.ZenRageSystems'
+2025/04/11 22:58:46 [SMTP [::1]:43664] [PROTO: ESTABLISH] In ESTABLISH state
+2025/04/11 22:58:46 [SMTP [::1]:43664] [PROTO: ESTABLISH] Got EHLO command, switching to MAIL state
+2025/04/11 22:58:46 [SMTP [::1]:43664] Sent 36 bytes: '250-Hello ZenPurple.ZenRageSystems\r\n'
+2025/04/11 22:58:46 [SMTP [::1]:43664] Sent 16 bytes: '250-PIPELINING\r\n'
+2025/04/11 22:58:46 [SMTP [::1]:43664] Sent 16 bytes: '250 AUTH PLAIN\r\n'
+2025/04/11 22:58:46 Jim: Being nice, letting them stay
+2025/04/11 22:58:46 [SMTP [::1]:43664] Received 75 bytes: 'mail from:<"Security Administrator & Sr.Security Engineer"@FineTechInfra>\r\n'
+2025/04/11 22:58:46 [SMTP [::1]:43664] [PROTO: MAIL] Processing line: mail from:<"Security Administrator & Sr.Security Engineer"@FineTechInfra>
+2025/04/11 22:58:46 [SMTP [::1]:43664] [PROTO: MAIL] In state 6, got command 'MAIL', args 'from:<"Security Administrator & Sr.Security Engineer"@FineTechInfra>'
+2025/04/11 22:58:46 [SMTP [::1]:43664] [PROTO: MAIL] In MAIL state
+2025/04/11 22:58:46 [SMTP [::1]:43664] [PROTO: MAIL] Got MAIL command, switching to RCPT state
+2025/04/11 22:58:46 Jim: Allowing sender "Security Administrator & Sr.Security Engineer"@FineTechInfra
+2025/04/11 22:58:46 [SMTP [::1]:43664] Sent 77 bytes: '250 Sender "Security Administrator & Sr.Security Engineer"@FineTechInfra ok\r\n'
+2025/04/11 22:58:46 Jim: Being nice, letting them stay
+2025/04/11 22:58:46 [SMTP [::1]:43664] Received 39 bytes: 'rcpt to:<rohit.verma@catchmail.local>\r\n'
+2025/04/11 22:58:46 [SMTP [::1]:43664] [PROTO: RCPT] Processing line: rcpt to:<rohit.verma@catchmail.local>
+2025/04/11 22:58:46 [SMTP [::1]:43664] [PROTO: RCPT] In state 7, got command 'RCPT', args 'to:<rohit.verma@catchmail.local>'
+2025/04/11 22:58:46 [SMTP [::1]:43664] [PROTO: RCPT] In RCPT state
+2025/04/11 22:58:46 [SMTP [::1]:43664] [PROTO: RCPT] Got RCPT command
+2025/04/11 22:58:46 Jim: Allowing recipientrohit.verma@catchmail.local
+2025/04/11 22:58:46 [SMTP [::1]:43664] Sent 46 bytes: '250 Recipient rohit.verma@catchmail.local ok\r\n'
+2025/04/11 22:58:46 Jim: Being nice, letting them stay
+2025/04/11 22:58:46 [SMTP [::1]:43664] Received 6 bytes: 'data\r\n'
+2025/04/11 22:58:46 [SMTP [::1]:43664] [PROTO: RCPT] Processing line: data
+2025/04/11 22:58:46 [SMTP [::1]:43664] [PROTO: RCPT] In state 7, got command 'DATA', args ''
+2025/04/11 22:58:46 [SMTP [::1]:43664] [PROTO: RCPT] In RCPT state
+2025/04/11 22:58:46 [SMTP [::1]:43664] [PROTO: RCPT] Got DATA command, switching to DATA state
+2025/04/11 22:58:46 [SMTP [::1]:43664] Sent 37 bytes: '354 End data with <CR><LF>.<CR><LF>\r\n'
+2025/04/11 22:58:46 Jim: Being nice, letting them stay
+2025/04/11 22:58:46 [SMTP [::1]:43664] Received 736 bytes: 'Subject: [ACTION REQUIRED] Security Alert: Unusual Login Attempt Detected on\r\n Your Account.\r\nFrom: Security Administrator & Sr. Security Engineer  @FineTechInfra <no-reply@phishlab.io>\r\nTo: rohit.verma@catchmail.local\r\nContent-Type: text/plain; charset="utf-8"\r\nContent-Transfer-Encoding: quoted-printable\r\nMIME-Version: 1.0\r\n\r\nHi Rohit,=20\r\nWe found few suspicious logins from your account in our finetech infra portal=\r\n, please re-login and accliam that its you.=20\r\nplease login through this secure preview login we internally created for secu=\r\nre logins.=20\r\nhttps://tinyurl.com/FineTechInfra-SecureLogin\r\n\r\nfrom karthik iyer,=20\r\nsr. security engineer, security teams @ finetech infra\r\nFineTech Infra Software Solutions.=20\r\n.\r\n'
+2025/04/11 22:58:46 [SMTP [::1]:43664] [PROTO: DATA] Got EOF, storing message and switching to MAIL state
+2025/04/11 22:58:46 Parsing Content from string: 'Subject: [ACTION REQUIRED] Security Alert: Unusual Login Attempt Detected on
+ Your Account.
+From: Security Administrator & Sr. Security Engineer  @FineTechInfra <no-reply@phishlab.io>
+To: rohit.verma@catchmail.local
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Hi Rohit,=20
+We found few suspicious logins from your account in our finetech infra portal=
+, please re-login and accliam that its you.=20
+please login through this secure preview login we internally created for secu=
+re logins.=20
+https://tinyurl.com/FineTechInfra-SecureLogin
+
+from karthik iyer,=20
+sr. security engineer, security teams @ finetech infra
+FineTech Infra Software Solutions.=20'
+2025/04/11 22:58:46 [SMTP [::1]:43664] Storing message vCI0BaQdY9l919C_AyWYYFStqm0gc8XYqmka3RhamEY=@mailhog.example
+2025/04/11 22:58:46 [SMTP [::1]:43664] Sent 80 bytes: '250 Ok: queued as vCI0BaQdY9l919C_AyWYYFStqm0gc8XYqmka3RhamEY=@mailhog.example\r\n'
+Got message in APIv2 websocket channel
+2025/04/11 22:58:46 Jim: Being nice, letting them stay
+[APIv2] BROADCAST /api/v2/websocket
+2025/04/11 22:58:46 [SMTP [::1]:43664] Received 6 bytes: 'QUIT\r\n'
+2025/04/11 22:58:46 [SMTP [::1]:43664] [PROTO: MAIL] Processing line: QUIT
+2025/04/11 22:58:46 [SMTP [::1]:43664] [PROTO: MAIL] In state 6, got command 'QUIT', args ''
+2025/04/11 22:58:46 [SMTP [::1]:43664] [PROTO: MAIL] Got QUIT verb, staying in MAIL state
+2025/04/11 22:58:46 [SMTP [::1]:43664] Sent 9 bytes: '221 Bye\r\n'
+Got message in APIv1 event stream
+Sending content: {
+  "ID": "vCI0BaQdY9l919C_AyWYYFStqm0gc8XYqmka3RhamEY=@mailhog.example",
+  "From": {
+    "Relays": null,
+    "Mailbox": "\"Security Administrator \u0026 Sr.Security Engineer\"",
+    "Domain": "FineTechInfra",
+    "Params": ""
+  },
+  "To": [
+    {
+      "Relays": null,
+      "Mailbox": "rohit.verma",
+      "Domain": "catchmail.local",
+      "Params": ""
+    }
+  ],
+  "Content": {
+    "Headers": {
+      "Content-Transfer-Encoding": [
+        "quoted-printable"
+      ],
+      "Content-Type": [
+        "text/plain; charset=\"utf-8\""
+      ],
+      "From": [
+        "Security Administrator \u0026 Sr. Security Engineer  @FineTechInfra \u003cno-reply@phishlab.io\u003e"
+      ],
+      "MIME-Version": [
+        "1.0"
+      ],
+      "Message-ID": [
+        "vCI0BaQdY9l919C_AyWYYFStqm0gc8XYqmka3RhamEY=@mailhog.example"
+      ],
+      "Received": [
+        "from ZenPurple.ZenRageSystems by mailhog.example (MailHog)\r\n          id vCI0BaQdY9l919C_AyWYYFStqm0gc8XYqmka3RhamEY=@mailhog.example; Fri, 11 Apr 2025 22:58:46 +0530"
+      ],
+      "Return-Path": [
+        "\u003c\"Security Administrator \u0026 Sr.Security Engineer\"@FineTechInfra\u003e"
+      ],
+      "Subject": [
+        "[ACTION REQUIRED] Security Alert: Unusual Login Attempt Detected on Your Account."
+      ],
+      "To": [
+        "rohit.verma@catchmail.local"
+      ]
+    },
+    "Body": "Hi Rohit,=20\r\nWe found few suspicious logins from your account in our finetech infra portal=\r\n, please re-login and accliam that its you.=20\r\nplease login through this secure preview login we internally created for secu=\r\nre logins.=20\r\nhttps://tinyurl.com/FineTechInfra-SecureLogin\r\n\r\nfrom karthik iyer,=20\r\nsr. security engineer, security teams @ finetech infra\r\nFineTech Infra Software Solutions.=20",
+    "Size": 731,
+    "MIME": null
+  },
+  "Created": "2025-04-11T22:58:46.8429238+05:30",
+  "MIME": null,
+  "Raw": {
+    "From": "\"Security Administrator \u0026 Sr.Security Engineer\"@FineTechInfra",
+    "To": [
+      "rohit.verma@catchmail.local"
+    ],
+    "Data": "Subject: [ACTION REQUIRED] Security Alert: Unusual Login Attempt Detected on\r\n Your Account.\r\nFrom: Security Administrator \u0026 Sr. Security Engineer  @FineTechInfra \u003cno-reply@phishlab.io\u003e\r\nTo: rohit.verma@catchmail.local\r\nContent-Type: text/plain; charset=\"utf-8\"\r\nContent-Transfer-Encoding: quoted-printable\r\nMIME-Version: 1.0\r\n\r\nHi Rohit,=20\r\nWe found few suspicious logins from your account in our finetech infra portal=\r\n, please re-login and accliam that its you.=20\r\nplease login through this secure preview login we internally created for secu=\r\nre logins.=20\r\nhttps://tinyurl.com/FineTechInfra-SecureLogin\r\n\r\nfrom karthik iyer,=20\r\nsr. security engineer, security teams @ finetech infra\r\nFineTech Infra Software Solutions.=20",
+    "Helo": "ZenPurple.ZenRageSystems"
+  }
+}
+
+[APIv1] BROADCAST /api/v1/events
+2025/04/11 22:58:46 [SMTP [::1]:43664] Session ended
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] GET /api/v1/messages/vCI0BaQdY9l919C_AyWYYFStqm0gc8XYqmka3RhamEY=@mailhog.example
+
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events

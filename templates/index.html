@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Phishing Simulation Challenge</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #121212;
+      color: #f5f5f5;
+      margin: 0;
+      padding: 0;
+    }
+
+    h1 {
+      text-align: center;
+      margin: 30px 0;
+      color: #00d1b2;
+    }
+
+    .levels-container {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 30px;
+      padding: 20px;
+    }
+
+    .card {
+      background-color: #1e1e1e;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0, 209, 178, 0.3);
+      width: 300px;
+      padding: 20px;
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: scale(1.03);
+    }
+
+    .card h2 {
+      color: #00d1b2;
+    }
+
+    .card p {
+      font-size: 0.9rem;
+      color: #ccc;
+    }
+
+    .card a {
+      display: inline-block;
+      margin-top: 15px;
+      background-color: #00d1b2;
+      color: #000;
+      text-decoration: none;
+      padding: 10px 15px;
+      border-radius: 6px;
+      font-weight: bold;
+      transition: background-color 0.2s ease;
+    }
+
+    .card a:hover {
+      background-color: #00b89f;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>🎯 Phishing Simulation Challenge</h1>
+
+  <div class="levels-container">
+
+    <!-- LEVEL 1 -->
+    <div class="card">
+      <h2>Level 1 — "The Intern Trap"</h2>
+      <p><strong>Name:</strong> Rohit Verma</p>
+      <p><strong>Role:</strong> Summer Intern, IT Department</p>
+      <p><strong>Email:</strong> rohit.verma@example.com</p>
+      <p><strong>Behavior:</strong> Eager to learn, uses personal Gmail for office docs, often rushes through emails without verifying links. Easy to impress. Frequently accesses shared portals from public Wi-Fi.</p>
+      <a href="/level1">Start Level 1</a>
+    </div>
+
+    <!-- LEVEL 2 -->
+    <div class="card">
+      <h2>Level 2 — "The Manager's Inbox"</h2>
+      <p><strong>Name:</strong> Anita Deshmukh</p>
+      <p><strong>Role:</strong> Project Manager, Finance Dept</p>
+      <p><strong>Email:</strong> anita.deshmukh@corp-finance.com</p>
+      <p><strong>Behavior:</strong> Fairly cautious, uses company Slack & official email. Reads HR communications seriously. Sometimes multitasks and clicks on links in a hurry. Known for quickly reviewing policy changes and announcements.</p>
+      <a href="/level2_slack">Start Level 2</a>
+    </div>
+
+    <!-- LEVEL 3 -->
+    <div class="card">
+      <h2>Level 3 — "The C-Suite  Confusion"</h2>
+      <p><strong>Name:</strong> Dr. Karthik Iyer</p>
+      <p><strong>Role:</strong> Chief Technology Officer</p>
+      <p><strong>Email:</strong> karthik.iyer@cybercore.com</p>
+	<p><strong>Linkedin:</strong> linkedin.com/in/karthik-iyer-57965635b </p>
+      <p><strong>Behavior:</strong> Security-conscious, uses 2FA & email filters. Active on LinkedIn, attends board meetings weekly. Schedules everything via Google Calendar. Only trusts internal tools or verified contacts. Big on innovation but skeptical of sudden reviews.</p>
+      <a href="/level3_invite">Start Level 3</a>
+    </div> 
+<hr style="margin: 40px 0; border: none; border-top: 1px solid #ccc;" />
+
+<section style="text-align: center; margin-top: 20px;">
+  <h2>📩 Send Your Phishing Email</h2>
+  <p>Craft and send a phishing email to one of the target profiles based on intel provided in levels. This is how you execute your attack.</p>
+  <a href="/send_mail" style="
+    display: inline-block;
+    background-color: #4a00e0;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s ease;
+  " onmouseover="this.style.backgroundColor='#8e2de2'" onmouseout="this.style.backgroundColor='#4a00e0'">
+    Launch Phishing Interface
+  </a>
+</section>
+
+ </div>
+
+</body>
+</html>
