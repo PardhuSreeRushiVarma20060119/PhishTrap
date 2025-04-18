@@ -1,7 +1,7 @@
 # Coordinating & Engineering a Realistic Phishing Simulation Event | The PhishTrap.
 #### Proud to have successfully led "PhishTrap", an immersive phishing simulation challenge where participants took on the role of adversaries to ethically breach human-layer defenses through advanced phishing tactics and social engineering techniques.
 
-### This initiative was conceptualized, designed, and executed with the collaborative support of : 
+#### This initiative was conceptualized, designed, and executed with the collaborative support of : 
 - B. Sree Divya – Senior Advisor & Event Coordinator 
 - Kanne Karthik – Peer Lead, OSINT Strategist & Profile Architect. 
 
