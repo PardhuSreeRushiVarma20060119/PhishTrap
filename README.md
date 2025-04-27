@@ -20,12 +20,12 @@ Custom Scripts – Traffic logging, spoof simulations, and attacker-side logic.
 #### This environment allowed a sandboxed, controlled-yet-realistic platform for participants to simulate spear-phishing scenarios in a dynamic multi-target ecosystem.
 
 ## 🎯 Participant Objectives: Participants had to:
- ✅ Perform deep OSINT on pre-built persona-based targets
- ✅ Craft personalized phishing emails with strategic social engineering
- ✅ Deploy lookalike portals using spoofing methods and mimic tactics
- ✅ Employ deception methods (spoofed sender, fake document names, cloaked URLs)
- ✅ Understand and leverage target psychology to ethically trick victims
- ✅ Log captured data and document impact trails for analysis
+ - ✅ Perform deep OSINT on pre-built persona-based targets
+ - ✅ Craft personalized phishing emails with strategic social engineering
+ - ✅ Deploy lookalike portals using spoofing methods and mimic tactics
+ - ✅ Employ deception methods (spoofed sender, fake document names, cloaked URLs)
+ - ✅ Understand and leverage target psychology to ethically trick victims
+ - ✅ Log captured data and document impact trails for analysis
 #### This wasn’t a plug-and-play task — this was a realistic phishing simulation, challenging participants to build trust, deceive, and ethically infiltrate systems using authentic phishing tactics.
 
 ## 🎓 My Takeaways as Student Coordinator:
