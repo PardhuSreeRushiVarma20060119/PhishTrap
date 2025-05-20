@@ -29,11 +29,11 @@ Custom Scripts – Traffic logging, spoof simulations, and attacker-side logic.
 #### This wasn’t a plug-and-play task — this was a realistic phishing simulation, challenging participants to build trust, deceive, and ethically infiltrate systems using authentic phishing tactics.
 
 ## 🎓 My Takeaways as Student Coordinator:
-Creative Narration of targets and story building.
-Building multi-user, multi-target phishing ecosystems.
-Behavioral logic mapping for phishing narratives.
-Coordinating team logistics + real-time evaluation during live sessions.
-Creating controlled phishing attack surfaces using best practices.
+- Creative Narration of targets and story building.
+- Building multi-user, multi-target phishing ecosystems.
+- Behavioral logic mapping for phishing narratives.
+- Coordinating team logistics + real-time evaluation during live sessions.
+- Creating controlled phishing attack surfaces using best practices.
 
 ## 🏆 Applause to the Winners:
 Kudos to the Winners — Rupa Karedla & B. Sree Navya — your OSINT creativity, crafted narratives, and behavioral attacks were exceptional! Your submissions reflected maturity, ethical creativity, and strategic execution.
